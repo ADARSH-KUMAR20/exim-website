@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>tagEximStaunch</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- font embedding -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- script tags -->
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <section id="nav-bar">
+        <div class="navigation-bar">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="check-togglerbtn">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                </label>
+                <a href="index.html">
+                    <img class="navbar-logo" src="images/logo.png" alt="company-logo">
+                </a>
+                <ul class="nav-ul">
+                    <li class="nav-li">
+                        <a class="nav-li-link" href="#services">
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-li-link" href="#about">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-li-link" href="register.html">
+                            Register
+                        </a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-li-link" href="#enquiry">
+                            Enquiry
+                        </a>
+                    </li>
+                </ul>
+        </div>
+    </section>
+    <section id="loginNSignup">
+        <div class="registration">
+            <div class="login">
+                <div class="login-content">
+                    <div class="login-content-intro">
+                        <h1>Welcome to <span class="logo-label">Tatkshan Export</span>.</h1>
+                        <p>We help people to make smarter call for export and import services.</p>
+                    </div>
+                    <div class="login-content-card register-card">
+                        <p>Not registered yet? <a href="register.html" class="link">Register</a></p>
+                        <form class="login-form" action="mailto:info@tatkshanexport.com" method="POST">
+                            <div class="login-input">
+                                <label for="email">
+                                    Email
+                                </label>
+                                <input type="email" id="email" placeholder="Enter your registered email" required>
+                                <label for="password">
+                                    Password
+                                </label>
+                                <input type="password" id="password"  placeholder="Enter your password" required>
+                            </div>
+                            <div class="login-buttons">
+                                <button class="login-submit" type="submit">LogIn</button>
+                                <button class="login-forget-pswd" type="submit">Forget Password</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="signup">
+                <div class="signup-content register-card">
+                    <p>Already registered? <a href="register.html" class="link">Login</a></p>
+                    <form class="signup-form" action="mailto:info@tatkshanexport.com" method="POST">
+                            <label for="name">
+                                Name
+                            </label>
+                            <input type="text" id="name" placeholder="Enter your name" required>
+                            <label for="email">
+                                Email
+                            </label>
+                            <input type="email" id="email"  placeholder="Enter your email" required>
+                            <label for="company-name">
+                                Company Name
+                            </label>
+                            <input type="text" id="company-name" placeholder="Enter your Company name" required>
+                            <label for="phone-no">
+                                Phone
+                            </label>
+                            <input type="text" id="phone-no" placeholder="Enter your Phone Number" required>
+                            <label for="password">
+                                Password
+                            </label>
+                            <input type="password" id="password" placeholder="Enter your password" required>
+                            <label for="confirm-password">
+                                Confirm Password
+                            </label>
+                            <input type="password" id="confirm-password" placeholder="ReEnter your password" required>
+                        <div class="signup-button">
+                            <button class="register-submit" type="submit">SignUp</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
